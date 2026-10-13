@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="app">
+    <header class="top">
+      <h1>AI Chatbot</h1>
+      <button id="new-chat" type="button">New chat</button>
+    </header>
+    <section id="chat" class="chat" aria-live="polite">
+      <div id="previews" class="previews"></div>
+      <p class="empty">Tell me, How can I help you.</p>
+    </section>
+    <form id="form" class="composer">
+      <button id="attach" class="icon-btn" type="button" title="Image jodein" aria-label="Image jodein">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg>
+      </button>
+      <input id="file-input" type="file" accept="image/*" multiple hidden>
+      <textarea id="input" rows="1" placeholder="Ask Anything.."></textarea>
+      <button id="mic" class="icon-btn" type="button" title="speak" aria-label="speak" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11v1a7 7 0 0 1-14 0v-1M12 19v3"/></svg>
+      </button>
+      <button id="send" type="submit">➤</button>
+      <button id="stop" type="button" hidden>⏹</button>
+    </form>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
