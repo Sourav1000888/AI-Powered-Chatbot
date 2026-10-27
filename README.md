@@ -2,7 +2,7 @@
 
 A chatbot with text, image and web-search input. FastAPI backend, vanilla JS frontend, local models via Ollama.
 
-##User Interface
+## User Interface
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/887cb746-6464-42f0-8737-c4df6281a941" />
 
 
